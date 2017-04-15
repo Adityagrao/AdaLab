@@ -55,7 +55,7 @@ void prims::minimum_spanning_tree()
 			{
 				min=d[j];		//Edge with least cost
 				u=j;	
-			]
+			}
 		t[k][0]=u;				//Insert into the MST
 		t[k][1]=p[u];
 		k++;
